@@ -5,6 +5,7 @@ using UnityEngine;
 public class Item : MonoBehaviour
 {
     [SerializeField] private Skill skill;
+    [SerializeField] private int multiplier;
 
     public enum SkillEffect {Player, Ball, Wall};
     [SerializeField] private SkillEffect effect;
@@ -14,7 +15,8 @@ public class Item : MonoBehaviour
         if (other.CompareTag("Ball"))
         {
             if (!other.GetComponent<Ball>().currentPlayer) return;
-            
+
+            skill.multiplier = multiplier;
             if (effect == SkillEffect.Player) skill.SetObject(other.GetComponent<Ball>().currentPlayer);
             else if (effect == SkillEffect.Ball) skill.SetObject(other.gameObject);
             else;

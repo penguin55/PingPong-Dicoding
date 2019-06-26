@@ -27,7 +27,7 @@ public class ResizePlayer : Skill
     public override void UseSkill()
     {
         RecordNormalCondition();
-        SkillEffect(2);
+        SkillEffect();
     }
 
     public void RecordNormalCondition()
@@ -41,7 +41,7 @@ public class ResizePlayer : Skill
         offsetPaddle = controlPlayer.offsetPaddle;
     }
 
-    private void SkillEffect(float multiplier)
+    private void SkillEffect()
     {
         controlPlayer.centerPaddle.localScale = new Vector2(scalePaddle.x * multiplier, 1);
         

@@ -66,7 +66,7 @@ public class Ball : MonoBehaviour
         baseScale = transform.localScale;
     }
 
-    void NormalCondition()
+    public void NormalCondition()
     {
         transform.localScale = baseScale;
         force = baseForce;

@@ -6,7 +6,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Skill/ResizeBall", fileName = "ResizeBall")]
 public class ResizeBall : Skill
 {
-    public GameObject ball;
+    [HideInInspector] public GameObject ball;
     
     public override void SetObject(GameObject node)
     {
@@ -20,7 +20,12 @@ public class ResizeBall : Skill
 
     void SkillEffect()
     {
-        
+        ball.transform.localScale *= multiplier;
+    }
+
+    public override void NormalCondition()
+    {
+        ball.GetComponent<Ball>().NormalCondition();
     }
     
 }

@@ -58,7 +58,7 @@ public class SkillManager : MonoBehaviour
     {
         skills.Insert(0,_skill);
         UpdateImage();
-        if (skills.Count == 3) skills.RemoveAt(skills.Count);
+        if (skills.Count > 3) skills.RemoveAt(skills.Count-1);
     }
 
     void UpdateImage()
