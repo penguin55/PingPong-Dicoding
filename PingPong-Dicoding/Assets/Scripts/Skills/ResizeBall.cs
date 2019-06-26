@@ -6,10 +6,21 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Skill/ResizeBall", fileName = "ResizeBall")]
 public class ResizeBall : Skill
 {
-    public GameObject node;
+    public GameObject ball;
+    
+    public override void SetObject(GameObject node)
+    {
+        ball = node;
+    }
     
     public override void UseSkill()
     {
+        SkillEffect();
+    }
+
+    void SkillEffect()
+    {
         
     }
+    
 }

@@ -9,6 +9,8 @@ public class CharacterController : CharacterBehaviour
     [SerializeField] private KeyCode down;
     [SerializeField] private KeyCode action;
 
+    [SerializeField] private KeyCode skill;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -25,9 +27,10 @@ public class CharacterController : CharacterBehaviour
     {
         if (Input.GetKey(up)) direction = Vector2.up;
         if (Input.GetKey(down)) direction = Vector2.down;
-        if (Input.GetKey(action)) skills[0].UseSkill();
+        if (Input.GetKeyDown(skill)) ActivateSkill();
         
         Move();
+        RestrictVerticalMovement();
         
         direction = Vector2.zero;
     }

@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - Ball
+  - LeftWall
+  - RightWall
   layers:
   - Default
   - TransparentFX
@@ -40,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Border
+    uniqueID: 982173789
+    locked: 0
+  - name: GameScreen
+    uniqueID: 3982316553
+    locked: 0
+  - name: UI
+    uniqueID: 2856465379
     locked: 0

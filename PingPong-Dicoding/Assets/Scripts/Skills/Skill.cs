@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Skill : ScriptableObject
 {
-    public virtual void UseSkill()
-    {
-        
-    }
+    public Sprite image;
+    public float durability;
+    public virtual void UseSkill(){}
+    public virtual void NormalCondition(){}
+    public virtual void SetObject(GameObject node){}
 }
