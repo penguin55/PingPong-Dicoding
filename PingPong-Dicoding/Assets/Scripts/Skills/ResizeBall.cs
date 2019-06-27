@@ -8,6 +8,15 @@ public class ResizeBall : Skill
 {
     [HideInInspector] public GameObject ball;
     
+    public override Skill MakesDuplicate()
+    {
+        Skill resizePlayer = new ResizeBall();
+        resizePlayer.multiplier = multiplier;
+        resizePlayer.durability = durability;
+        resizePlayer.image = image;
+        return resizePlayer;
+    }
+    
     public override void SetObject(GameObject node)
     {
         ball = node;

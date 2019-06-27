@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-[CreateAssetMenu(menuName = "Skill/SlowMotionBall", fileName = "SlowMotionBall")]
-public class SlowMotionBall : Skill
+[CreateAssetMenu(menuName = "Skill/SpeedUpBall", fileName = "SpeedUpBall")]
+public class SpeedUpBall : Skill
 {
     [HideInInspector] public GameObject ball;
-    
+
     public override Skill MakesDuplicate()
     {
-        Skill resizePlayer = new SlowMotionBall();
+        Skill resizePlayer = new SpeedUpBall();
         resizePlayer.multiplier = multiplier;
         resizePlayer.durability = durability;
         resizePlayer.image = image;
@@ -29,13 +29,12 @@ public class SlowMotionBall : Skill
 
     void SkillEffect()
     {
-        ball.GetComponent<Ball>().skillForce = (multiplier / 10f);
-        ball.GetComponent<Rigidbody2D>().velocity /= multiplier * 2;
+        ball.GetComponent<Ball>().skillForce = multiplier;
+        ball.GetComponent<Rigidbody2D>().velocity *= multiplier;
     }
 
     public override void NormalCondition()
     {
         ball.GetComponent<Ball>().NormalCondition();
     }
-    
 }

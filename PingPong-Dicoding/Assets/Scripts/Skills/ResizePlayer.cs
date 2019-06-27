@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,7 +7,7 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Skill/ResizePlayer", fileName = "ResizePlayer")]
 public class ResizePlayer : Skill
 {
-    [HideInInspector] public GameObject player;
+    [HideInInspector] public GameObject player; 
 
     private CharacterController controlPlayer;
     private BoxCollider2D colliderPaddle;
@@ -18,6 +19,15 @@ public class ResizePlayer : Skill
     private Vector2 topPaddlePos;
     private Vector2 bottomPaddlePos;
     private Vector2 scalePaddle;
+
+    public override Skill MakesDuplicate()
+    {
+        Skill resizePlayer = new ResizePlayer();
+        resizePlayer.multiplier = multiplier;
+        resizePlayer.durability = durability;
+        resizePlayer.image = image;
+        return resizePlayer;
+    }
 
     public override void SetObject(GameObject node)
     {

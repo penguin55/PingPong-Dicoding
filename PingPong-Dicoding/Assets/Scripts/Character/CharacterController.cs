@@ -7,7 +7,6 @@ public class CharacterController : CharacterBehaviour
     [Header("Controller")] 
     [SerializeField] private KeyCode up;
     [SerializeField] private KeyCode down;
-    [SerializeField] private KeyCode action;
 
     [SerializeField] private KeyCode skill;
 

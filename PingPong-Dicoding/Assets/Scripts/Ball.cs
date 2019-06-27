@@ -9,7 +9,8 @@ public class Ball : MonoBehaviour
     private Rigidbody2D rbd;
 
     [SerializeField] private float baseForce; //Normal Force
-    [HideInInspector] public float force; //Force manipulation in here
+    [HideInInspector] private float force; //Force manipulation in here
+    public float skillForce = 1;
     
     private Vector2 direction;
 
@@ -32,7 +33,7 @@ public class Ball : MonoBehaviour
             float sudut =(transform.position.y - other.transform.position.y)*5f;
             direction = new Vector2(rbd.velocity.x, sudut).normalized;
             rbd.velocity = new Vector2(0, 0);
-            rbd.AddForce(force*direction*2);
+            rbd.AddForce(force*skillForce*direction*2);
             currentPlayer = other.gameObject;
         }
 
@@ -40,7 +41,7 @@ public class Ball : MonoBehaviour
         {
             ResetBall();
             direction = new Vector2(-2,0).normalized;
-            rbd.AddForce(force*direction);
+            rbd.AddForce(force*skillForce*direction);
             GameManagement.instance.UpdateScore(0,1);
         }
         
@@ -48,7 +49,7 @@ public class Ball : MonoBehaviour
         {
             ResetBall();
             direction = new Vector2(2,0).normalized;
-            rbd.AddForce(force*direction);
+            rbd.AddForce(force*skillForce*direction);
             GameManagement.instance.UpdateScore(1,0);
         }
     }
@@ -58,7 +59,6 @@ public class Ball : MonoBehaviour
         transform.position = Vector2.zero;
         rbd.velocity = new Vector2(0, 0);
         currentPlayer = null;
-        force = baseForce;
     }
 
     void RecordNormalCondition()
@@ -70,5 +70,6 @@ public class Ball : MonoBehaviour
     {
         transform.localScale = baseScale;
         force = baseForce;
+        skillForce = 1;
     }
 }

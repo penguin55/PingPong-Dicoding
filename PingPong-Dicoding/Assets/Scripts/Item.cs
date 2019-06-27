@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    [SerializeField] private Skill skill;
-    [SerializeField] private int multiplier;
+    [SerializeField] private Skill initialSkill;
+    private Skill runtimeSkill;
+    [SerializeField] private float multiplier;
 
     public enum SkillEffect {Player, Ball, Wall};
     [SerializeField] private SkillEffect effect;
@@ -16,12 +17,14 @@ public class Item : MonoBehaviour
         {
             if (!other.GetComponent<Ball>().currentPlayer) return;
 
-            skill.multiplier = multiplier;
-            if (effect == SkillEffect.Player) skill.SetObject(other.GetComponent<Ball>().currentPlayer);
-            else if (effect == SkillEffect.Ball) skill.SetObject(other.gameObject);
+            initialSkill.multiplier = multiplier;
+            runtimeSkill = initialSkill.MakesDuplicate();
+            
+            if (effect == SkillEffect.Player) runtimeSkill.SetObject(other.GetComponent<Ball>().currentPlayer);
+            else if (effect == SkillEffect.Ball) runtimeSkill.SetObject(other.gameObject);
             else;
 
-            other.GetComponent<Ball>().currentPlayer.GetComponentInParent<CharacterBehaviour>().skillManager.AddSkill(skill);
+            other.GetComponent<Ball>().currentPlayer.GetComponentInParent<CharacterBehaviour>().skillManager.AddSkill(runtimeSkill);
             Destroy(gameObject);
         }
     }
