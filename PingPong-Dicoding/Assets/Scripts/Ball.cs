@@ -16,8 +16,7 @@ public class Ball : MonoBehaviour
 
     private Vector2 baseScale;
     
-    // Start is called before the first frame update
-    void Start()
+    public void Initialize()
     {
         rbd = GetComponent<Rigidbody2D>();
         direction = new Vector2(2,0).normalized;
@@ -27,7 +26,7 @@ public class Ball : MonoBehaviour
     }
 
     private void OnCollisionEnter2D(Collision2D other)
-    {
+    {        
         if (other.gameObject.CompareTag("Player"))
         {
             float sudut =(transform.position.y - other.transform.position.y)*5f;
@@ -39,18 +38,18 @@ public class Ball : MonoBehaviour
 
         if (other.gameObject.CompareTag("LeftWall"))
         {
+            GameManagement.instance.UpdateScore(0,1);
             ResetBall();
             direction = new Vector2(-2,0).normalized;
             rbd.AddForce(force*skillForce*direction);
-            GameManagement.instance.UpdateScore(0,1);
         }
         
         if (other.gameObject.CompareTag("RightWall"))
         {
+            GameManagement.instance.UpdateScore(1,0);
             ResetBall();
             direction = new Vector2(2,0).normalized;
-            rbd.AddForce(force*skillForce*direction);
-            GameManagement.instance.UpdateScore(1,0);
+            rbd.AddForce(force*skillForce*direction);          
         }
     }
 
@@ -71,5 +70,11 @@ public class Ball : MonoBehaviour
         transform.localScale = baseScale;
         force = baseForce;
         skillForce = 1;
+    }
+
+    public void StopBall()
+    {
+        force = 0;
+        rbd.velocity = new Vector2(0, 0);
     }
 }

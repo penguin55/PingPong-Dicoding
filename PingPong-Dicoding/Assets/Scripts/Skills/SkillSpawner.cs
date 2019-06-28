@@ -25,6 +25,7 @@ public class SkillSpawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (GameManagement.instance.freeze) return;
         Spawn();
     }
 
