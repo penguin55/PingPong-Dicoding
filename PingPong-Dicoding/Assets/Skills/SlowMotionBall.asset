@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f034aabb99ab84ebeb124765786ddd, type: 3}
   m_Name: SlowMotionBall
   m_EditorClassIdentifier: 
-  image: {fileID: 21300120, guid: 740e7940b03d612439a0a9ef825cb931, type: 3}
+  image: {fileID: 21300024, guid: 22e0a6461f218d649877b7640db7243b, type: 3}
+  colorSprite: {r: 0.79215693, g: 0.027450982, b: 0.039215688, a: 1}
   durability: 1
   multiplier: 2
   ball: {fileID: 0}
+  skillSFX: {fileID: 8300000, guid: 9d45871e885519948a23b045bd62b49c, type: 3}

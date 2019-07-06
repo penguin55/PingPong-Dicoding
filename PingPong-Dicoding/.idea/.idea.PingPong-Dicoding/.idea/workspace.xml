@@ -3,19 +3,433 @@
   <component name="ChangeListManager">
     <list default="true" id="d32329c1-95dc-42a5-9227-e41a6cf78191" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PingPong-Dicoding/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PingPong-Dicoding/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PingPong-Dicoding/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PingPong-Dicoding/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PingPong-Dicoding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PingPong-Dicoding/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Plugins.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Plugins.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/BeautySchoolDropout.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/BeautySchoolDropout/BeautySchoolDropout.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/BeautySchoolDropout/BeautySchoolDropout.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/BeautySchoolDropout/BeautySchoolDropoutII.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/BeautySchoolDropout/BeautySchoolDropoutII.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Nasalization.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Nasalization/nasalization-rg.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Nasalization/nasalization-rg.ttf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC_bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC_bold.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC_italic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC_italic.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC_light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC_light.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC_medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Fonts/Neon_Club/NEON CLUB MUSIC_medium.otf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/AntialiasingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/AntialiasingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/BloomAndFlaresEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/BloomAndFlaresEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/BloomEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/BloomEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/CameraMotionBlurEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/CameraMotionBlurEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/ColorCorrectionLookupEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/ColorCorrectionLookupEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/CreaseShadingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/CreaseShadingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/DepthOfFieldEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/DepthOfFieldEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/EdgeDetectionEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/EdgeDetectionEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/NoiseAndGrainEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/NoiseAndGrainEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/SunShaftsEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/SunShaftsEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/TonemappingEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/TonemappingEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Antialiasing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Antialiasing.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Bloom.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Bloom.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/BloomAndFlares.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/BloomAndFlares.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/BloomOptimized.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/BloomOptimized.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Blur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Blur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/BlurOptimized.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/BlurOptimized.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/CameraMotionBlur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/CameraMotionBlur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ColorCorrectionCurves.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ColorCorrectionLookup.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ColorCorrectionRamp.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ContrastEnhance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ContrastEnhance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ContrastStretch.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ContrastStretch.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/CreaseShading.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/CreaseShading.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/DepthOfField.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/DepthOfField.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/DepthOfFieldDeprecated.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/EdgeDetection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/EdgeDetection.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Fisheye.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Fisheye.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/GlobalFog.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/GlobalFog.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Grayscale.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Grayscale.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ImageEffectBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ImageEffectBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ImageEffects.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ImageEffects.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/MotionBlur.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/MotionBlur.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/NoiseAndGrain.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/NoiseAndGrain.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/NoiseAndScratches.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/NoiseAndScratches.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/PostEffectsBase.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/PostEffectsBase.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/PostEffectsHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/PostEffectsHelper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Quads.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Quads.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ScreenOverlay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ScreenOverlay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ScreenSpaceAmbientObscurance.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/ScreenSpaceAmbientOcclusion.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/SepiaTone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/SepiaTone.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/SunShafts.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/SunShafts.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/TiltShift.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/TiltShift.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Tonemapping.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Tonemapping.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Triangles.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Triangles.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Twirl.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Twirl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/VignetteAndChromaticAberration.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Vortex.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Scripts/Vortex.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/BlendModesOverlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/BlendModesOverlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/BlurEffectConeTaps.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/CameraMotionBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/CameraMotionBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/CameraMotionBlurDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ChromaticAberrationShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrection3DLut.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrectionCurves.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrectionCurvesSimple.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrectionEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ColorCorrectionSelective.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch/Adaptation.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch/Apply.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch/Luminance.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Contrast Stretch/MinMaxReduction.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ContrastComposite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ContrastComposite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ConvertDepth.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ConvertDepth.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/CreaseApply.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/CreaseApply.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/EdgeDetectNormals.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/FisheyeShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/FisheyeShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/GlobalFog.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/GlobalFog.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/GrayscaleEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/GrayscaleEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/MotionBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/MotionBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/MotionBlurClear.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/MotionBlurClear.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/NoiseAndGrain.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/NoiseAndGrain.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/NoiseAndGrainDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/NoiseEffectShaderRGB.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/NoiseEffectShaderYUV.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/PrepareSunShaftsBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/RadialBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/RadialBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/SSAOShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/SSAOShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ScreenSpaceAmbientObscurance.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ScreenSpaceRaytrace.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/SepiaToneEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/SepiaToneEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/ShowAlphaChannel.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/SimpleClear.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/SimpleClear.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/SunShaftsComposite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/SunShaftsComposite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Tonemapper.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/Tonemapper.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/TwirlEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/TwirlEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/VignettingShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/VignettingShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/VortexEffect.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/VortexEffect.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/DLAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/FXAA2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/FXAA3Console.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/FXAAPreset3.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/NFAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_Antialiasing/SSAA.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/Blend.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendForBloom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BlendOneOne.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BlurAndFlares.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/BrightPassFilter2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/LensFlareCreate.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBloom.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/MobileBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/MultiPassHollywoodFlares.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/SeparableBlurPlus.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_BloomAndFlares/VignetteShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/Bokeh34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfField34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldDX11.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/DepthOfFieldScatter.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/SeparableBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/SeparableWeightedBlurDof34.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/_DepthOfField/TiltShiftHdrLensBlur.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/frag_ao.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Shaders/frag_ao.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/ContrastEnhanced3D16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/HexShape.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/HexShape.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/MotionBlurJitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/MotionBlurJitter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/Neutral3D16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/Neutral3D16.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/Noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/Noise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/NoiseAndGrain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/NoiseAndGrain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/NoiseEffectGrain.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/NoiseEffectGrain.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/NoiseEffectScratch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/NoiseEffectScratch.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/RandomVectors.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/RandomVectors.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/SphereShape.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/SphereShape.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/VignetteMask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/VignetteMask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/color correction ramp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/color correction ramp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/grayscale ramp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/GlowAsset/Effects/ImageEffects/Textures/grayscale ramp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Plugins.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Plugins/Editor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Plugins/Editor/JetBrains.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/BeautySchoolDropout SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/BeautySchoolDropout SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Drop Shadow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Outline.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/NEON CLUB MUSIC_bold SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/NEON CLUB MUSIC_bold SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/NEON CLUB MUSIC_light SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/NEON CLUB MUSIC_light SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/nasalization-rg SDF.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Fonts &amp; Materials/nasalization-rg SDF.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/LineBreaking Following Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_SDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMPro.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMPro.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMPro_Properties.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Shaders/TMPro_Surface.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Sprite Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Style Sheets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/TMP Settings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Resources/TMP Settings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Sprites.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Sprites/EmojiOne Attribution.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Sprites/EmojiOne.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Sprites/EmojiOne.json.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Sprites/EmojiOne.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/TextMesh Pro/Sprites/EmojiOne.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Skills/SkillSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Skills/SkillSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Ball.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Ball.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Slider.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shaders/Slider.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/SlowMotionBall _ 4.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/SlowMotionBall _ 4.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameVariable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameVariable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Item.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Skills/ResizeBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Skills/ResizeBall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Skills/ResizePlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Skills/ResizePlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Skills/Skill.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Skills/Skill.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Skills/SkillManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Skills/SkillManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Skills/SlowMotionBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Skills/SlowMotionBall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Skills/SpeedUpBall.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Skills/SpeedUpBall.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIInGameManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIInGameManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Ball.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Ball.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Item.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Item.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Slider.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Slider.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/UI.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/UI.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Wall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shaders/Wall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizeBall x 1.5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizeBall x 1.5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizeBall x 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizeBall x 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizeBall x 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizeBall x 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizePlayer x 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizePlayer x 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizePlayer x 3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizePlayer x 3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizePlayer x 4.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/ResizePlayer x 4.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/SlowMotionBall _ 2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/SlowMotionBall _ 2.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/SpeedUpBall x 1.3.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/SpeedUpBall x 1.3.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/Prefabs/SpeedUpBall x 1.5.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/Prefabs/SpeedUpBall x 1.5.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/ResizeBall.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/ResizeBall.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/ResizePlayer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/ResizePlayer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/SlowMotionBall.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Skills/SlowMotionBall.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/SpeedUpBall.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Skills/SpeedUpBall.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BG.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BG.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BubbleButton.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BubbleButton.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Button.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Button.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Window.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Window.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,190 +437,104 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1396807791">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.42" value="1" />
-          <entry key="project.opened" value="7" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="cs" value="11851" />
-          <entry key="shader" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="C#" value="11851" />
-          <entry key="ShaderLab" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="cs" value="50" />
-          <entry key="shader" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="C#" value="50" />
-          <entry key="ShaderLab" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="-39">
+              <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding>
-                <marker date="1561691940951" expanded="false" signature="6:78" ph="..." />
-                <marker date="1561691940951" expanded="true" signature="113:2139" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="469:672" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="728:1659" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="793:1113" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="1167:1374" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="1437:1653" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="1681:1808" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="1842:1896" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="1931:2036" ph="{...}" />
-                <marker date="1561691940951" expanded="true" signature="2064:2137" ph="{...}" />
+                <marker date="1561947443756" expanded="false" signature="6:78" ph="..." />
+                <marker date="1561947443756" expanded="true" signature="121:1605" ph="{...}" />
+                <marker date="1561947443756" expanded="true" signature="690:961" ph="{...}" />
+                <marker date="1561947443756" expanded="true" signature="719:921" ph="{...}" />
+                <marker date="1561947443756" expanded="true" signature="1006:1055" ph="{...}" />
+                <marker date="1561947443756" expanded="true" signature="1104:1426" ph="{...}" />
+                <marker date="1561947443756" expanded="true" signature="1135:1420" ph="{...}" />
+                <marker date="1561947443756" expanded="true" signature="1462:1519" ph="{...}" />
+                <marker date="1561947443756" expanded="true" signature="1548:1603" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIInGameManager.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameVariable.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+            <state relative-caret-position="32">
+              <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
               <folding>
-                <marker date="1561696692282" expanded="true" signature="6:113" ph="..." />
-                <marker date="1561696692282" expanded="true" signature="159:1302" ph="{...}" />
-                <marker date="1561696692282" expanded="true" signature="285:526" ph="{...}" />
-                <marker date="1561696692282" expanded="true" signature="316:520" ph="{...}" />
-                <marker date="1561696692282" expanded="true" signature="558:697" ph="{...}" />
-                <marker date="1561696692282" expanded="true" signature="736:872" ph="{...}" />
-                <marker date="1561696692282" expanded="true" signature="920:1300" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManagement.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-              <folding>
-                <marker date="1561699202038" expanded="false" signature="6:91" ph="..." />
-                <marker date="1561699202038" expanded="true" signature="136:1910" ph="{...}" />
-                <marker date="1561699202038" expanded="true" signature="853:929" ph="{...}" />
-                <marker date="1561699202038" expanded="true" signature="986:1247" ph="{...}" />
-                <marker date="1561699202038" expanded="true" signature="1276:1399" ph="{...}" />
-                <marker date="1561699202038" expanded="true" signature="1448:1575" ph="{...}" />
-                <marker date="1561699202038" expanded="true" signature="1708:1908" ph="{...}" />
+                <marker date="1561947444528" expanded="true" signature="25:140" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+              <folding>
+                <marker date="1561952097926" expanded="true" signature="6:79" ph="..." />
+                <marker date="1561952097926" expanded="true" signature="121:1998" ph="{...}" />
+                <marker date="1561952097926" expanded="true" signature="296:351" ph="{...}" />
+                <marker date="1561952097926" expanded="true" signature="386:528" ph="{...}" />
+                <marker date="1561952097926" expanded="true" signature="577:1210" ph="{...}" />
+                <marker date="1561952097926" expanded="true" signature="661:1204" ph="{...}" />
+                <marker date="1561952097926" expanded="true" signature="1254:1535" ph="{...}" />
+                <marker date="1561952097926" expanded="true" signature="1559:1660" ph="{...}" />
+                <marker date="1561952097926" expanded="true" signature="1696:1832" ph="{...}" />
+                <marker date="1561952097926" expanded="true" signature="1872:1996" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="-574">
+              <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding>
-                <marker date="1561702246802" expanded="false" signature="6:78" ph="..." />
-                <marker date="1561702246802" expanded="true" signature="121:974" ph="{...}" />
-                <marker date="1561702246802" expanded="true" signature="198:219" ph="{...}" />
-                <marker date="1561702246802" expanded="true" signature="242:291" ph="{...}" />
-                <marker date="1561702246802" expanded="true" signature="329:617" ph="{...}" />
-                <marker date="1561702246802" expanded="true" signature="443:611" ph="{...}" />
-                <marker date="1561702246802" expanded="true" signature="662:712" ph="{...}" />
-                <marker date="1561702246802" expanded="true" signature="761:971" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="61:2639" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="465:766" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="789:910" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="1040:1506" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="1154:1251" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="1264:1500" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="1512:1650" ph="/* Look at the ball x coordinate and determine when the AI should move looking for y coordinate ... */" />
+                <marker date="1561950511863" expanded="true" signature="1694:1760" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="1906:2131" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="2210:2281" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="2302:2636" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="2379:2630" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="2416:2534" ph="{...}" />
+                <marker date="1561950511863" expanded="true" signature="2551:2620" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+            <state relative-caret-position="192">
+              <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
               <folding>
-                <marker date="1561571145816" expanded="false" signature="6:97" ph="..." />
-                <marker date="1561571145816" expanded="true" signature="146:1000" ph="{...}" />
-                <marker date="1561571145816" expanded="true" signature="494:571" ph="{...}" />
-                <marker date="1561571145816" expanded="true" signature="615:912" ph="{...}" />
-                <marker date="1561571145816" expanded="true" signature="948:998" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <marker date="1561691941021" expanded="false" signature="6:78" ph="..." />
-                <marker date="1561691941021" expanded="true" signature="133:704" ph="{...}" />
-                <marker date="1561691941021" expanded="true" signature="311:397" ph="{...}" />
-                <marker date="1561691941021" expanded="true" signature="420:702" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillSpawner.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-              <folding>
-                <marker date="1561691941246" expanded="false" signature="6:78" ph="..." />
-                <marker date="1561691941246" expanded="true" signature="121:1823" ph="{...}" />
-                <marker date="1561691941246" expanded="true" signature="555:639" ph="{...}" />
-                <marker date="1561691941246" expanded="true" signature="697:778" ph="{...}" />
-                <marker date="1561691941246" expanded="true" signature="808:1058" ph="{...}" />
-                <marker date="1561691941246" expanded="true" signature="1076:1397" ph="{...}" />
-                <marker date="1561691941246" expanded="true" signature="1153:1391" ph="{...}" />
-                <marker date="1561691941246" expanded="true" signature="1428:1599" ph="{...}" />
-                <marker date="1561691941246" expanded="true" signature="1623:1686" ph="{...}" />
-                <marker date="1561691941246" expanded="true" signature="1751:1821" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/ResizePlayer.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <marker date="1561604856807" expanded="false" signature="6:92" ph="..." />
-                <marker date="1561604856807" expanded="true" signature="744:962" ph="{...}" />
-                <marker date="1561604856807" expanded="true" signature="1015:1050" ph="{...}" />
-                <marker date="1561604856807" expanded="true" signature="1087:1155" ph="{...}" />
-                <marker date="1561604856807" expanded="true" signature="1196:1663" ph="{...}" />
-                <marker date="1561604856807" expanded="true" signature="1695:2271" ph="{...}" />
-                <marker date="1561604856807" expanded="true" signature="2315:2714" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="6:100" ph="..." />
+                <marker date="1561950553974" expanded="true" signature="143:2188" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="534:969" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="650:715" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="728:923" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="1002:1581" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="1056:1575" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="1625:1756" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="1780:2109" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="1822:2103" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="1866:2057" ph="{...}" />
+                <marker date="1561950553974" expanded="true" signature="2140:2185" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -218,23 +546,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIInGameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/Skill.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/AntialiasingEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8D2DEAE-EB3A-4471-B3E2-24C2A136823A/83/92d34aa9/ISerializationCallbackReceiver.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshProUGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Glow/Editor/ImageEffects/AntialiasingEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerImageSelector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SpeedUpBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/Skill.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/ResizeBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SlowMotionBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/ResizePlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SpeedUpBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/Glow.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SlowMotionBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameVariable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Skills/ResizeBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -247,27 +579,27 @@
         <option value="$PROJECT_DIR$/Assets/Shaders/Glow.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SkillManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Skills/LockBall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Skills/ResizePlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Skills/SkillSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIInGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Skills/Skill.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Skills/ResizeBall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Skills/ResizePlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Skills/SlowMotionBall.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Skills/SpeedUpBall.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Skills/SkillSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UIInGameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManagement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameVariable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerImageSelector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Skills/SkillManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MainMenuManager.cs" />
       </list>
     </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-69" />
@@ -281,28 +613,49 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
             <path>
-              <item name="Project" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="Skills" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="UI" type="1045f7f1:UnityExplorerNode" />
             </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
       </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -318,13 +671,17 @@
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
     <list>
@@ -349,11 +706,18 @@
       <workItem from="1561540078425" duration="4764000" />
       <workItem from="1561568676239" duration="13674000" />
       <workItem from="1561655482292" duration="13378000" />
+      <workItem from="1561710778111" duration="874000" />
+      <workItem from="1561712431927" duration="132000" />
+      <workItem from="1561716512054" duration="5385000" />
+      <workItem from="1561728074540" duration="2101000" />
+      <workItem from="1561741691752" duration="5468000" />
+      <workItem from="1561880439824" duration="1287000" />
+      <workItem from="1561908407543" duration="8254000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58824000" />
+    <option name="totallyTimeSpent" value="82325000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,9 +731,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.27380952" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30214116" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -385,12 +751,14 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27380952" />
@@ -423,10 +791,7 @@
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -456,81 +821,39 @@
     <entry file="file://$PROJECT_DIR$/Assets/Standard Assets/Editor/ImageEffects/AntialiasingEditor.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/LockBall.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/SkillManager.cs" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8D2DEAE-EB3A-4471-B3E2-24C2A136823A/83/92d34aa9/ISerializationCallbackReceiver.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C8D2DEAE-EB3A-4471-B3E2-24C2A136823A/83/92d34aa9/ISerializationCallbackReceiver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/GlowAsset/Editor/ImageEffects/BloomEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/AntialiasingEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@1.3.0/Scripts/Runtime/TextMeshProUGUI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="32">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/GlowAsset/Editor/ImageEffects/AntialiasingEditor.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Glow/Editor/ImageEffects/AntialiasingEditor.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/Skill.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="138" selection-start-line="15" selection-start-column="138" selection-end-line="15" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillManager.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/ResizePlayer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="80">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <marker date="1561604856807" expanded="false" signature="6:92" ph="..." />
-            <marker date="1561604856807" expanded="true" signature="744:962" ph="{...}" />
-            <marker date="1561604856807" expanded="true" signature="1015:1050" ph="{...}" />
-            <marker date="1561604856807" expanded="true" signature="1087:1155" ph="{...}" />
-            <marker date="1561604856807" expanded="true" signature="1196:1663" ph="{...}" />
-            <marker date="1561604856807" expanded="true" signature="1695:2271" ph="{...}" />
-            <marker date="1561604856807" expanded="true" signature="2315:2714" ph="{...}" />
+            <marker date="1487954764000" expanded="false" signature="6:51" ph="..." />
+            <marker date="1487954764000" expanded="true" signature="95:2872" ph="{...}" />
+            <marker date="1487954764000" expanded="true" signature="184:2870" ph="{...}" />
+            <marker date="1487954764000" expanded="true" signature="660:1246" ph="{...}" />
+            <marker date="1487954764000" expanded="true" signature="1294:2864" ph="{...}" />
+            <marker date="1487954764000" expanded="true" signature="1652:1864" ph="{...}" />
+            <marker date="1487954764000" expanded="true" signature="1923:2237" ph="{...}" />
+            <marker date="1487954764000" expanded="true" signature="2300:2411" ph="{...}" />
+            <marker date="1487954764000" expanded="true" signature="2482:2807" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SpeedUpBall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <marker date="1561605845940" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561605845940" expanded="true" signature="210:956" ph="{...}" />
-            <marker date="1561605845940" expanded="true" signature="302:519" ph="{...}" />
-            <marker date="1561605845940" expanded="true" signature="576:609" ph="{...}" />
-            <marker date="1561605845940" expanded="true" signature="650:685" ph="{...}" />
-            <marker date="1561605845940" expanded="true" signature="709:845" ph="{...}" />
-            <marker date="1561605845940" expanded="true" signature="889:954" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SlowMotionBall.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding>
-            <marker date="1561605837382" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561605837382" expanded="true" signature="219:989" ph="{...}" />
-            <marker date="1561605837382" expanded="true" signature="315:535" ph="{...}" />
-            <marker date="1561605837382" expanded="true" signature="592:625" ph="{...}" />
-            <marker date="1561605837382" expanded="true" signature="666:701" ph="{...}" />
-            <marker date="1561605837382" expanded="true" signature="725:873" ph="{...}" />
-            <marker date="1561605837382" expanded="true" signature="917:982" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIInGameManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
+        <state relative-caret-position="112">
           <caret line="27" column="51" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
           <folding>
             <marker date="1561691941246" expanded="false" signature="6:78" ph="..." />
@@ -547,137 +870,277 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/Skill.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <marker date="1561910343756" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561910343756" expanded="true" signature="117:725" ph="{...}" />
+            <marker date="1561910343756" expanded="true" signature="450:723" ph="/* To makes duplicate of this object ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/ResizeBall.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        <state relative-caret-position="800">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
           <folding>
-            <marker date="1561605824839" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561605824839" expanded="true" signature="207:886" ph="{...}" />
-            <marker date="1561605824839" expanded="true" signature="303:519" ph="{...}" />
-            <marker date="1561605824839" expanded="true" signature="576:609" ph="{...}" />
-            <marker date="1561605824839" expanded="true" signature="650:685" ph="{...}" />
-            <marker date="1561605824839" expanded="true" signature="709:770" ph="{...}" />
-            <marker date="1561605824839" expanded="true" signature="814:879" ph="{...}" />
+            <marker date="1561945802279" expanded="true" signature="147:1693" ph="{...}" />
+            <marker date="1561945802279" expanded="true" signature="273:542" ph="/* To duplicate this scriptable object, to avoid sharing data and changing value between another scriptable ... */" />
+            <marker date="1561945802279" expanded="true" signature="666:1005" ph="{...}" />
+            <marker date="1561945802279" expanded="true" signature="1142:1175" ph="{...}" />
+            <marker date="1561945802279" expanded="true" signature="1271:1306" ph="{...}" />
+            <marker date="1561945802279" expanded="true" signature="1366:1480" ph="{...}" />
+            <marker date="1561945802279" expanded="true" signature="1561:1686" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/ResizePlayer.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="523">
+          <caret line="84" column="50" lean-forward="true" selection-start-line="84" selection-start-column="50" selection-end-line="84" selection-end-column="50" />
           <folding>
-            <marker date="1561691940951" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561691940951" expanded="true" signature="113:2139" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="469:672" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="728:1659" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="793:1113" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="1167:1374" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="1437:1653" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="1681:1808" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="1842:1896" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="1931:2036" ph="{...}" />
-            <marker date="1561691940951" expanded="true" signature="2064:2137" ph="{...}" />
+            <marker date="1561945960902" expanded="true" signature="153:3604" ph="{...}" />
+            <marker date="1561945960902" expanded="true" signature="699:968" ph="/* To duplicate this scriptable object, to avoid sharing data and changing value between another scriptable ... */" />
+            <marker date="1561945960902" expanded="true" signature="1092:1451" ph="{...}" />
+            <marker date="1561945960902" expanded="true" signature="1552:1587" ph="{...}" />
+            <marker date="1561945960902" expanded="true" signature="1657:1778" ph="{...}" />
+            <marker date="1561945960902" expanded="true" signature="1938:2404" ph="{...}" />
+            <marker date="1561945960902" expanded="true" signature="2463:3039" ph="{...}" />
+            <marker date="1561945960902" expanded="true" signature="3140:3602" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/GlowAsset/Editor/ImageEffects/BloomEditor.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SlowMotionBall.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Resources/GlowAsset/Editor/ImageEffects/AntialiasingEditor.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="336">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="80" />
           <folding>
-            <marker date="1487954764000" expanded="false" signature="6:51" ph="..." />
-            <marker date="1487954764000" expanded="true" signature="95:2872" ph="{...}" />
-            <marker date="1487954764000" expanded="true" signature="184:2870" ph="{...}" />
-            <marker date="1487954764000" expanded="true" signature="660:1246" ph="{...}" />
-            <marker date="1487954764000" expanded="true" signature="1294:2864" ph="{...}" />
-            <marker date="1487954764000" expanded="true" signature="1652:1864" ph="{...}" />
-            <marker date="1487954764000" expanded="true" signature="1923:2237" ph="{...}" />
-            <marker date="1487954764000" expanded="true" signature="2300:2411" ph="{...}" />
-            <marker date="1487954764000" expanded="true" signature="2482:2807" ph="{...}" />
+            <marker date="1561946055262" expanded="true" signature="159:1668" ph="{...}" />
+            <marker date="1561946055262" expanded="true" signature="253:522" ph="/* To duplicate this scriptable object, to avoid sharing data and changing value between another scriptable ... */" />
+            <marker date="1561946055262" expanded="true" signature="645:978" ph="{...}" />
+            <marker date="1561946055262" expanded="true" signature="1090:1123" ph="{...}" />
+            <marker date="1561946055262" expanded="true" signature="1164:1252" ph="{...}" />
+            <marker date="1561946055262" expanded="true" signature="1323:1471" ph="{...}" />
+            <marker date="1561946055262" expanded="true" signature="1596:1661" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManagement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SpeedUpBall.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        <state relative-caret-position="384">
+          <caret line="42" column="80" selection-start-line="42" selection-start-column="80" selection-end-line="42" selection-end-column="80" />
           <folding>
-            <marker date="1561699202038" expanded="false" signature="6:91" ph="..." />
-            <marker date="1561699202038" expanded="true" signature="136:1910" ph="{...}" />
-            <marker date="1561699202038" expanded="true" signature="853:929" ph="{...}" />
-            <marker date="1561699202038" expanded="true" signature="986:1247" ph="{...}" />
-            <marker date="1561699202038" expanded="true" signature="1276:1399" ph="{...}" />
-            <marker date="1561699202038" expanded="true" signature="1448:1575" ph="{...}" />
-            <marker date="1561699202038" expanded="true" signature="1708:1908" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UIInGameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
-          <folding>
-            <marker date="1561696692282" expanded="true" signature="6:113" ph="..." />
-            <marker date="1561696692282" expanded="true" signature="159:1302" ph="{...}" />
-            <marker date="1561696692282" expanded="true" signature="285:526" ph="{...}" />
-            <marker date="1561696692282" expanded="true" signature="316:520" ph="{...}" />
-            <marker date="1561696692282" expanded="true" signature="558:697" ph="{...}" />
-            <marker date="1561696692282" expanded="true" signature="736:872" ph="{...}" />
-            <marker date="1561696692282" expanded="true" signature="920:1300" ph="{...}" />
+            <marker date="1561946103919" expanded="true" signature="150:1565" ph="{...}" />
+            <marker date="1561946103919" expanded="true" signature="240:509" ph="/* To duplicate this scriptable object, to avoid sharing data and changing value between another scriptable ... */" />
+            <marker date="1561946103919" expanded="true" signature="633:939" ph="{...}" />
+            <marker date="1561946103919" expanded="true" signature="1051:1084" ph="{...}" />
+            <marker date="1561946103919" expanded="true" signature="1125:1213" ph="{...}" />
+            <marker date="1561946103919" expanded="true" signature="1237:1373" ph="{...}" />
+            <marker date="1561946103919" expanded="true" signature="1498:1563" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" column="59" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
+        <state relative-caret-position="347">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
-            <marker date="1561571145816" expanded="false" signature="6:97" ph="..." />
-            <marker date="1561571145816" expanded="true" signature="146:1000" ph="{...}" />
-            <marker date="1561571145816" expanded="true" signature="494:571" ph="{...}" />
-            <marker date="1561571145816" expanded="true" signature="615:912" ph="{...}" />
-            <marker date="1561571145816" expanded="true" signature="948:998" ph="{...}" />
+            <marker date="1561946220857" expanded="true" signature="67:1063" ph="{...}" />
+            <marker date="1561946220857" expanded="true" signature="461:538" ph="{...}" />
+            <marker date="1561946220857" expanded="true" signature="651:948" ph="{...}" />
+            <marker date="1561946220857" expanded="true" signature="1011:1061" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Character/CharacterController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state>
           <folding>
-            <marker date="1561691941021" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561691941021" expanded="true" signature="133:704" ph="{...}" />
-            <marker date="1561691941021" expanded="true" signature="311:397" ph="{...}" />
-            <marker date="1561691941021" expanded="true" signature="420:702" ph="{...}" />
+            <marker date="1561946229339" expanded="true" signature="73:644" ph="{...}" />
+            <marker date="1561946229339" expanded="true" signature="251:337" ph="{...}" />
+            <marker date="1561946229339" expanded="true" signature="360:642" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="54" column="8" lean-forward="true" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="55" />
+          <folding>
+            <marker date="1561946315089" expanded="true" signature="6:79" ph="..." />
+            <marker date="1561946315089" expanded="true" signature="119:1495" ph="{...}" />
+            <marker date="1561946315089" expanded="true" signature="321:615" ph="{...}" />
+            <marker date="1561946315089" expanded="true" signature="405:609" ph="{...}" />
+            <marker date="1561946315089" expanded="true" signature="647:787" ph="{...}" />
+            <marker date="1561946315089" expanded="true" signature="826:962" ph="{...}" />
+            <marker date="1561946315089" expanded="true" signature="1014:1394" ph="{...}" />
+            <marker date="1561946315089" expanded="true" signature="1425:1493" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Ball.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <marker date="1561946741095" expanded="true" signature="53:2723" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="459:686" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="742:1996" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="807:1201" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="1360:1639" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="1702:1990" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="2082:2209" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="2295:2358" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="2519:2580" ph="{...}" />
+            <marker date="1561946741095" expanded="true" signature="2648:2721" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManagement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1072">
+          <caret line="67" column="49" selection-start-line="67" selection-start-column="49" selection-end-line="67" selection-end-column="49" />
+          <folding>
+            <marker date="1561946981924" expanded="true" signature="6:57" ph="..." />
+            <marker date="1561946981924" expanded="true" signature="102:3433" ph="{...}" />
+            <marker date="1561946981924" expanded="true" signature="1112:1188" ph="{...}" />
+            <marker date="1561946981924" expanded="true" signature="1245:1585" ph="{...}" />
+            <marker date="1561946981924" expanded="true" signature="1614:1737" ph="{...}" />
+            <marker date="1561946981924" expanded="true" signature="1786:1981" ph="{...}" />
+            <marker date="1561946981924" expanded="true" signature="2119:2360" ph="{...}" />
+            <marker date="1561946981924" expanded="true" signature="2489:3431" ph="{...}" />
+            <marker date="1561946981924" expanded="true" signature="2694:3425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameVariable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
+          <folding>
+            <marker date="1561947444528" expanded="true" signature="25:140" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+          <folding>
+            <marker date="1561947082667" expanded="true" signature="53:964" ph="{...}" />
+            <marker date="1561947082667" expanded="true" signature="293:962" ph="{...}" />
+            <marker date="1561947082667" expanded="true" signature="337:956" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerImageSelector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
+          <folding>
+            <marker date="1561947121487" expanded="true" signature="6:40" ph="..." />
+            <marker date="1561947121487" expanded="true" signature="144:1559" ph="{...}" />
+            <marker date="1561947121487" expanded="true" signature="771:1353" ph="{...}" />
+            <marker date="1561947121487" expanded="true" signature="928:1052" ph="{...}" />
+            <marker date="1561947121487" expanded="true" signature="1094:1208" ph="{...}" />
+            <marker date="1561947121487" expanded="true" signature="1221:1347" ph="{...}" />
+            <marker date="1561947121487" expanded="true" signature="1405:1449" ph="{...}" />
+            <marker date="1561947121487" expanded="true" signature="1508:1557" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/AudioManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding>
+            <marker date="1561947443756" expanded="false" signature="6:78" ph="..." />
+            <marker date="1561947443756" expanded="true" signature="121:1605" ph="{...}" />
+            <marker date="1561947443756" expanded="true" signature="690:961" ph="{...}" />
+            <marker date="1561947443756" expanded="true" signature="719:921" ph="{...}" />
+            <marker date="1561947443756" expanded="true" signature="1006:1055" ph="{...}" />
+            <marker date="1561947443756" expanded="true" signature="1104:1426" ph="{...}" />
+            <marker date="1561947443756" expanded="true" signature="1135:1420" ph="{...}" />
+            <marker date="1561947443756" expanded="true" signature="1462:1519" ph="{...}" />
+            <marker date="1561947443756" expanded="true" signature="1548:1603" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="-574">
+          <caret line="28" column="51" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding>
-            <marker date="1561702246802" expanded="false" signature="6:78" ph="..." />
-            <marker date="1561702246802" expanded="true" signature="121:974" ph="{...}" />
-            <marker date="1561702246802" expanded="true" signature="198:219" ph="{...}" />
-            <marker date="1561702246802" expanded="true" signature="242:291" ph="{...}" />
-            <marker date="1561702246802" expanded="true" signature="329:617" ph="{...}" />
-            <marker date="1561702246802" expanded="true" signature="443:611" ph="{...}" />
-            <marker date="1561702246802" expanded="true" signature="662:712" ph="{...}" />
-            <marker date="1561702246802" expanded="true" signature="761:971" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="61:2639" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="465:766" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="789:910" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="1040:1506" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="1154:1251" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="1264:1500" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="1512:1650" ph="/* Look at the ball x coordinate and determine when the AI should move looking for y coordinate ... */" />
+            <marker date="1561950511863" expanded="true" signature="1694:1760" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="1906:2131" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="2210:2281" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="2302:2636" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="2379:2630" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="2416:2534" ph="{...}" />
+            <marker date="1561950511863" expanded="true" signature="2551:2620" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Skills/SkillManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="18" column="52" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
+          <folding>
+            <marker date="1561950553974" expanded="true" signature="6:100" ph="..." />
+            <marker date="1561950553974" expanded="true" signature="143:2188" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="534:969" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="650:715" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="728:923" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="1002:1581" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="1056:1575" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="1625:1756" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="1780:2109" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="1822:2103" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="1866:2057" ph="{...}" />
+            <marker date="1561950553974" expanded="true" signature="2140:2185" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/UI/MainMenuManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <marker date="1561952097926" expanded="true" signature="6:79" ph="..." />
+            <marker date="1561952097926" expanded="true" signature="121:1998" ph="{...}" />
+            <marker date="1561952097926" expanded="true" signature="296:351" ph="{...}" />
+            <marker date="1561952097926" expanded="true" signature="386:528" ph="{...}" />
+            <marker date="1561952097926" expanded="true" signature="577:1210" ph="{...}" />
+            <marker date="1561952097926" expanded="true" signature="661:1204" ph="{...}" />
+            <marker date="1561952097926" expanded="true" signature="1254:1535" ph="{...}" />
+            <marker date="1561952097926" expanded="true" signature="1559:1660" ph="{...}" />
+            <marker date="1561952097926" expanded="true" signature="1696:1832" ph="{...}" />
+            <marker date="1561952097926" expanded="true" signature="1872:1996" ph="{...}" />
           </folding>
         </state>
       </provider>

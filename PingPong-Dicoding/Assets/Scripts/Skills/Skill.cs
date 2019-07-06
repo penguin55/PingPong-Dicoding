@@ -5,8 +5,12 @@ using UnityEngine;
 public class Skill : ScriptableObject
 {
     public Sprite image;
+    public Color colorSprite;
+    
     public float durability;
-    [HideInInspector] public float multiplier;
+    public float multiplier;
+    
+    
     public virtual void UseSkill(){}
     public virtual void NormalCondition(){}
     public virtual void SetObject(GameObject node){}

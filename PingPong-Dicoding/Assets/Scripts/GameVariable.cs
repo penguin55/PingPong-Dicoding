@@ -1,18 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class GameVariable : MonoBehaviour
+﻿public class GameVariable
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public static string _mode; // To save the mode of the game, so this value can bring on another scene
+    
 }

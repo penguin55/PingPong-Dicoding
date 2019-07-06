@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CharacterBehaviour : MonoBehaviour
 {
@@ -16,11 +13,13 @@ public class CharacterBehaviour : MonoBehaviour
 
     protected Vector2 direction = Vector2.zero;
 
+    // For moving the player on Vertical Axis
     protected void Move()
     {
         transform.Translate(direction * speed * Time.deltaTime);
     }
 
+    // To restrict vertical movement, so as not to get out of bounds
     public void RestrictVerticalMovement()
     {
         float directionY = Mathf.Clamp(transform.position.y , -GameManagement.instance.mapSize.y/2f + offsetPaddle, GameManagement.instance.mapSize.y/2f - offsetPaddle);
@@ -28,6 +27,7 @@ public class CharacterBehaviour : MonoBehaviour
         transform.position = new Vector2(directionX, directionY);
     }
 
+    // To activate a skill
     protected void ActivateSkill()
     {
         skillManager.ActivateSkill();

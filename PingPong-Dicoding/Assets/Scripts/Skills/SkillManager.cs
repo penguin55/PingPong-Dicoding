@@ -20,7 +20,8 @@ public class SkillManager : MonoBehaviour
 
     void Update()
     {
-        if (!activateSkill) return;
+        
+        if (!activateSkill || GameManagement.instance.freeze) return;
         if (skillDuration > 0)
         {
             skillDuration -= Time.deltaTime;
@@ -50,6 +51,7 @@ public class SkillManager : MonoBehaviour
             skillBar.value = skillDuration;
             skillActiveImage.enabled = true;
             skillActiveImage.sprite = skillImage[0].sprite;
+            skillActiveImage.color = skillImage[0].color;
             UpdateImage();
         }
     }
@@ -69,7 +71,13 @@ public class SkillManager : MonoBehaviour
             {
                 skillImage[i].enabled = true;
                 skillImage[i].sprite = skills[i].image;
+                skillImage[i].color = skills[i].colorSprite;
             } else skillImage[i].enabled = false;
         }
     }
+
+    public bool CanUseSkill()
+    {
+        return skills.Count > 0;
+    } 
 }

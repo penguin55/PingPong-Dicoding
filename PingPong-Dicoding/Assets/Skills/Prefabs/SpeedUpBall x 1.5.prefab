@@ -50,7 +50,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3a586766e8d6ccf44937e8493e57b9b7, type: 2}
+  - {fileID: 2100000, guid: 36144b765bd60aa4b9bebd6bdef2c937, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: -312650743
   m_SortingLayer: 2
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300136, guid: 740e7940b03d612439a0a9ef825cb931, type: 3}
+  m_Sprite: {fileID: 21300010, guid: 22e0a6461f218d649877b7640db7243b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -93,8 +93,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eca0b425827860744a336d240281ed0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  initialSkill: {fileID: 11400000, guid: 4a7f2f892b08d5f45a068112d00a57c2, type: 2}
-  multiplier: 1.5
+  initialSkill: {fileID: 11400000, guid: 7e54ae8a1be84324b8e363b44b15d2f2, type: 2}
   effect: 1
 --- !u!58 &2445111657630471966
 CircleCollider2D:

@@ -1,12 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Item : MonoBehaviour
 {
     [SerializeField] private Skill initialSkill;
     private Skill runtimeSkill;
-    [SerializeField] private float multiplier;
 
     public enum SkillEffect {Player, Ball, Wall};
     [SerializeField] private SkillEffect effect;
@@ -16,8 +13,9 @@ public class Item : MonoBehaviour
         if (other.CompareTag("Ball"))
         {
             if (!other.GetComponent<Ball>().currentPlayer) return;
-
-            initialSkill.multiplier = multiplier;
+            
+            AudioManager.instance.GetAnItem();
+            
             runtimeSkill = initialSkill.MakesDuplicate();
             
             if (effect == SkillEffect.Player) runtimeSkill.SetObject(other.GetComponent<Ball>().currentPlayer);
